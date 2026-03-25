@@ -1,0 +1,37 @@
+{
+	"Name": "P300 dataset from Hoffmann et al 2008",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "Unknown",
+	"Authors": [
+		"Ulrich Hoffmann",
+		"Jean-Marc Vesin",
+		"Touradj Ebrahimi",
+		"Karin Diserens"
+	],
+	"Funding": [
+		"Swiss National Science Foundation Grant No. 200020-112313"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1016/j.jneumeth.2007.03.005"
+		}
+	],
+	"Keywords": [
+		"Brain\u2013computer interface",
+		"P300",
+		"Disabled subjects",
+		"Fisher's linear discriminant analysis",
+		"Bayesian linear discriminant analysis"
+	],
+	"PublicationYear": 2008
+}

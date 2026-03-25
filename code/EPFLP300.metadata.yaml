@@ -1,0 +1,179 @@
+_dataset:
+  class: EPFLP300
+  code: EPFLP300
+  doi: 10.1016/j.jneumeth.2007.03.005
+  interval:
+  - 0
+  - 1
+  n_subjects: 8
+  paradigm: p300
+acquisition:
+  channel_types:
+    eeg: 32
+    misc: 2
+  hardware: Biosemi ActiveTwo
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 32
+  sampling_rate: 2048.0
+  sensor_type: active
+  sensors:
+  - AF3
+  - AF4
+  - C3
+  - C4
+  - CP1
+  - CP2
+  - CP5
+  - CP6
+  - Cz
+  - F3
+  - F4
+  - F7
+  - F8
+  - FC1
+  - FC2
+  - FC5
+  - FC6
+  - Fp1
+  - Fp2
+  - Fz
+  - MA1
+  - MA2
+  - O1
+  - O2
+  - Oz
+  - P3
+  - P4
+  - P7
+  - P8
+  - PO3
+  - PO4
+  - Pz
+  - T7
+  - T8
+bci_application:
+  applications:
+  - environment_control
+  environment: laboratory
+cross_validation:
+  cv_folds: 4
+  cv_method: leave-one-session-out
+  evaluation_type:
+  - session-based
+data_structure:
+  n_trials:
+    non-target: 675
+    target: 135
+  n_trials_per_class:
+    non-target: 675
+    target: 135
+  trials_context: per_session
+documentation:
+  contact_info:
+  - ulrich.hoffmann@epfl.ch
+  country: CH
+  doi: 10.1016/j.jneumeth.2007.03.005
+  funding:
+  - Swiss National Science Foundation Grant No. 200020-112313
+  institution: Ecole Polytechnique Fédérale de Lausanne
+  institution_address: Signal Processing Institute, CH-1015 Lausanne, Switzerland
+  institution_department: Signal Processing Institute
+  investigators:
+  - Ulrich Hoffmann
+  - Jean-Marc Vesin
+  - Touradj Ebrahimi
+  - Karin Diserens
+  keywords:
+  - Brain–computer interface
+  - P300
+  - Disabled subjects
+  - Fisher's linear discriminant analysis
+  - Bayesian linear discriminant analysis
+  license: Unknown
+  publication_year: 2008
+  repository: http://bci.epfl.ch/p300
+  senior_author: Karin Diserens
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: none
+  instructions: Subjects were asked to count silently how often a prescribed image was flashed
+  mode: offline
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_presentation:
+    display: six images (television, telephone, lamp, door, window, radio)
+    flash_duration: 100ms
+    isi: 400ms
+  stimulus_type: image_flash
+  study_design: 'Subjects counted silently how often a prescribed image (one of six: television, telephone, lamp, door, window,
+    radio) was flashed while images were flashed in random sequences'
+  trial_duration: 1.0
+file_format: MATLAB
+paradigm_specific:
+  detected_paradigm: p300
+  isi_ms: 400.0
+  n_targets: 6
+  soa_ms: 400.0
+participants:
+  age_max: 56
+  age_mean: 38.4
+  age_min: 30
+  ages:
+  - 56
+  - 51
+  - 47
+  - 33
+  - 30
+  - 30
+  - 30
+  - 30
+  bci_experience: no training required
+  clinical_population: 4 disabled (cerebral palsy, multiple sclerosis, late-stage amyotrophic lateral sclerosis, traumatic
+    brain and spinal-cord injury C4 level), 4 able-bodied
+  gender:
+    female: 1
+    male: 7
+  health_status: mixed
+  n_subjects: 8
+  species: human
+performance:
+  accuracy_percent: 100.0
+  itr_bits_per_min: 28.8
+  max_bitrate_able_bodied_avg: 38.6
+  max_bitrate_disabled_avg: 19.0
+  max_bitrate_overall_avg: 28.8
+preprocessing:
+  data_state: raw
+runs_per_session: 6
+sessions_per_subject: 4
+signal_processing:
+  classifiers:
+  - BLDA
+  - FLDA
+  feature_extraction:
+  - temporal samples from selected electrodes
+  frequency_bands:
+    analyzed_range:
+    - 1.0
+    - 12.0
+tags:
+  modality:
+  - Visual
+  pathology:
+  - Healthy
+  - Cerebral palsy
+  - Multiple sclerosis
+  - Amyotrophic lateral sclerosis
+  - Traumatic brain injury
+  - Post-anoxic encephalopathy
+  type:
+  - Research
