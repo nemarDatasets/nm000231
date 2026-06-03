@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Ulrich Hoffmann": {},
+    "Jean-Marc Vesin": {},
+    "Touradj Ebrahimi": {},
+    "Karin Diserens": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.jneumeth.2007.03.005",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000231",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000231",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Swiss National Science Foundation",
+      "award_number": "200020-112313"
+    }
+  ],
+  "title": "P300 dataset from Hoffmann et al 2008",
+  "license": "Unknown",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "2.1 GB (193 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 8 subjects (4 disabled, 4 able-bodied) performing a visual oddball task with image stimuli. The dataset includes 32-channel EEG data sampled at 2048 Hz from subjects counting target images among randomly presented non-target images, with performance evaluated using linear discriminant analysis classifiers. This derivative dataset is derived from the original Hoffmann et al. 2008 study and serves as a benchmark for BCI algorithm development and evaluation.",
+  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 32 active electrodes at 2048 Hz sampling rate. Subjects performed a visual P300 oddball task where they silently counted target images (one of six: television, telephone, lamp, door, window, radio) presented in random sequences with 400 ms inter-stimulus intervals and 100 ms flash duration. Four sessions per subject with 6 runs each were recorded in offline mode without feedback.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "visual oddball task"
+    },
+    {
+      "term": "disabled subjects"
+    },
+    {
+      "term": "linear discriminant analysis"
+    }
+  ],
+  "source_hash": "c0ff5bf7bc776e01be225c6e8c829134f75e93e10ad150d235c5ece9b0f67b5d"
+}
