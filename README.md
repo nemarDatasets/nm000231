@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000231-blue)](https://doi.org/10.82901/nemar.nm000231)
+
 # P300 dataset from Hoffmann et al 2008
 
 P300 dataset from Hoffmann et al 2008.
