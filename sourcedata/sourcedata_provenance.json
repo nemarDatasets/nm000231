@@ -1,0 +1,975 @@
+{
+ "dataset": "nm000231",
+ "moabb_class": "EPFLP300",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.EPFLP300.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-epflp300-data/groups/m/mm/mmspg/www/BCI/p300",
+ "license": "Unknown",
+ "doi": "10.1016/j.jneumeth.2007.03.005",
+ "naming": "upstream_filenames_restored",
+ "n_files": 192,
+ "total_bytes": 2290808920,
+ "files": [
+  {
+   "file": "subject1/session1/eeg_200605191428_epochs.mat",
+   "bytes": 11676047,
+   "sha256": "2a928d282945ae2072913961ce2dd25fc8caad30d656a026d7310c8fc4c5a4b0"
+  },
+  {
+   "file": "subject1/session1/eeg_200605191430_epochs.mat",
+   "bytes": 11036843,
+   "sha256": "af376fc5fc10112163ec57f9169dc3f64bdcc0ab4bac2cb838fee0879f2741de"
+  },
+  {
+   "file": "subject1/session1/eeg_200605191431_epochs.mat",
+   "bytes": 11665059,
+   "sha256": "07ae2e2829ee720c484f18472aa05d7976b1dee3a27459aa42bcd7533aadbb6f"
+  },
+  {
+   "file": "subject1/session1/eeg_200605191433_epochs.mat",
+   "bytes": 12923919,
+   "sha256": "3557130b0bfeba33c35803b6f07672df93b8fb79b946e306d0a169316af832f8"
+  },
+  {
+   "file": "subject1/session1/eeg_200605191435_epochs.mat",
+   "bytes": 13175827,
+   "sha256": "16e8ceb98c54a4687386ff4606a29b2b6a2b220a587f98696bfb53a78b2f13c8"
+  },
+  {
+   "file": "subject1/session1/eeg_200605191437_epochs.mat",
+   "bytes": 12673867,
+   "sha256": "43836ae21e225b8ed38178885cc9a98f8efbbef85fb4cf088de35a7278fec95f"
+  },
+  {
+   "file": "subject1/session2/eeg_200605191445_epochs.mat",
+   "bytes": 10643840,
+   "sha256": "25402416de55ad9d35a51ed22453243b7c2e6dc33b9c93a078ba249b80a5761f"
+  },
+  {
+   "file": "subject1/session2/eeg_200605191447_epochs.mat",
+   "bytes": 12201631,
+   "sha256": "1354c68da3b66fdbf0241c183f2fc656951fa63c3a2866c3043a8bcb7547a722"
+  },
+  {
+   "file": "subject1/session2/eeg_200605191449_epochs.mat",
+   "bytes": 11090484,
+   "sha256": "69c2abad2ad36a5140bd76b116e9f465321991d8b39592423bb6831325bedd6d"
+  },
+  {
+   "file": "subject1/session2/eeg_200605191450_epochs.mat",
+   "bytes": 12081237,
+   "sha256": "fc47c5dbc7d76225b83f173bf96d4ccb5e46fe6b073be7a1640db1d66c92d621"
+  },
+  {
+   "file": "subject1/session2/eeg_200605191452_epochs.mat",
+   "bytes": 11713885,
+   "sha256": "85670575fca7df6ad1aeb9fc0dded5845ab279033a529db574f41f8eafbe7bca"
+  },
+  {
+   "file": "subject1/session2/eeg_200605191454_epochs.mat",
+   "bytes": 12270816,
+   "sha256": "37531b7f3d2fd0e88c803ea223fcf1f8c91450f0fc23dcf728496b17952d4c91"
+  },
+  {
+   "file": "subject1/session3/eeg_200605231143_epochs.mat",
+   "bytes": 11406291,
+   "sha256": "a2ab099c88aebe3c6797d895e89f604e12c263a9ebbf20957401c5016a4d664b"
+  },
+  {
+   "file": "subject1/session3/eeg_200605231144_epochs.mat",
+   "bytes": 12518666,
+   "sha256": "aa6ba6cc76fcbbeb3c7362d2d4775337b017ebaafa8f73d0457e02e2282b6a9d"
+  },
+  {
+   "file": "subject1/session3/eeg_200605231146_epochs.mat",
+   "bytes": 10413234,
+   "sha256": "5169c31b198e52685ddba80f0d08e4c599d58925eb82691581d5c5e00f343daf"
+  },
+  {
+   "file": "subject1/session3/eeg_200605231148_epochs.mat",
+   "bytes": 10403034,
+   "sha256": "850252bae3dc0319ffa265447efd49eec261ee813703a986dcd1c8ea530630b6"
+  },
+  {
+   "file": "subject1/session3/eeg_200605231149_epochs.mat",
+   "bytes": 12378239,
+   "sha256": "c2ee6139605da093e051fa5891961bac03c32dc16dc3e4dc82fdd61e8b65182b"
+  },
+  {
+   "file": "subject1/session3/eeg_200605231151_epochs.mat",
+   "bytes": 11831692,
+   "sha256": "84f9dccac0046ffd870a7b56c0aeddb78e5b3fe1e74ce138b3ef0bcfbbd9df69"
+  },
+  {
+   "file": "subject1/session4/eeg_200605231159_epochs.mat",
+   "bytes": 10397505,
+   "sha256": "3177a0026a00b53d7455165699456fc689a01d37a781c463d43a2d4fb3605490"
+  },
+  {
+   "file": "subject1/session4/eeg_200605231200_epochs.mat",
+   "bytes": 10421839,
+   "sha256": "c3129f0f402ebd4de630e8689d3d46f2fda736ad71212194245bc42f6b4cda2d"
+  },
+  {
+   "file": "subject1/session4/eeg_200605231202_epochs.mat",
+   "bytes": 11693658,
+   "sha256": "c3ea5931faae2c87fc473ce33bdb05217af7f5ec12cd7cdac67d4ce5965d13b5"
+  },
+  {
+   "file": "subject1/session4/eeg_200605231204_epochs.mat",
+   "bytes": 11202112,
+   "sha256": "acee622cc108f59d612de9baec835b1635c2da28ed96fa846fc53bfeb23ce70f"
+  },
+  {
+   "file": "subject1/session4/eeg_200605231206_epochs.mat",
+   "bytes": 12141677,
+   "sha256": "2c65d9e6877f02b4ba0ed71b16f5d1c9c5e50748372a4a242bb6e9ea89379fe6"
+  },
+  {
+   "file": "subject1/session4/eeg_200605231208_epochs.mat",
+   "bytes": 11220176,
+   "sha256": "5153b868c487f20897d1346ee09a731abf1365345034b5782523182442233e73"
+  },
+  {
+   "file": "subject2/session1/eeg_200605191536_epochs.mat",
+   "bytes": 12748651,
+   "sha256": "cda844efac3e070cd30e14ef866a6884d5c616e15f131d0398cce17e5cbc0936"
+  },
+  {
+   "file": "subject2/session1/eeg_200605191538_epochs.mat",
+   "bytes": 11899897,
+   "sha256": "ba2d7b7ea16899b3ed89786e0405c59400791fb9a3d685b8a82035fd8dbaa7ff"
+  },
+  {
+   "file": "subject2/session1/eeg_200605191540_epochs.mat",
+   "bytes": 12552515,
+   "sha256": "1dd2110492d68ba1c0d87fd08ee11e641e8ee9bd085e867ed8f7faf2080f1ecb"
+  },
+  {
+   "file": "subject2/session1/eeg_200605191542_epochs.mat",
+   "bytes": 11968355,
+   "sha256": "fe360783361dc928342caa9b68ea0dcfb9108165d2d22b9d755bb4343573c2e6"
+  },
+  {
+   "file": "subject2/session1/eeg_200605191544_epochs.mat",
+   "bytes": 12268271,
+   "sha256": "c9207e900562f373dd742853ad12bc80f810e826707d5aef0ab44a422162e95c"
+  },
+  {
+   "file": "subject2/session1/eeg_200605191546_epochs.mat",
+   "bytes": 11296864,
+   "sha256": "ed738e41114415a9a2db46128e3120f3079cadfbe7a2639de85a77587c6906ba"
+  },
+  {
+   "file": "subject2/session2/eeg_200605191550_epochs.mat",
+   "bytes": 11459378,
+   "sha256": "45422631ec1208322c25791908c4e84c7e0a72f6d0f3fddd46b6332369335adb"
+  },
+  {
+   "file": "subject2/session2/eeg_200605191552_epochs.mat",
+   "bytes": 12745718,
+   "sha256": "5a17b2c15e231d5f259053a26d923cd78128a5798e64635cfb61acaa052ff00a"
+  },
+  {
+   "file": "subject2/session2/eeg_200605191554_epochs.mat",
+   "bytes": 12835232,
+   "sha256": "a8c14a85ba07d45553c6a0871a807034700e9b897cd96888305504ce2e8dd8c3"
+  },
+  {
+   "file": "subject2/session2/eeg_200605191556_epochs.mat",
+   "bytes": 13617430,
+   "sha256": "9309448b018a737c67506007585ab3dc9c0bef9ca4272df61eff9edb563e7796"
+  },
+  {
+   "file": "subject2/session2/eeg_200605191558_epochs.mat",
+   "bytes": 12276807,
+   "sha256": "7f6401ebde45b6cf47c7d5e4d37a541ba0de572bb0ba2e0a078398c9262576c8"
+  },
+  {
+   "file": "subject2/session2/eeg_200605191600_epochs.mat",
+   "bytes": 11831719,
+   "sha256": "2e9c63d587e38a85d638dab562d41c13afdb2b4b6a6e9873f54cfb7ce81d96bd"
+  },
+  {
+   "file": "subject2/session3/eeg_200605231022_epochs.mat",
+   "bytes": 12532504,
+   "sha256": "e523a87d915d0dfc5940dac5a968dea524f947171363eeeaf966c378500c1d22"
+  },
+  {
+   "file": "subject2/session3/eeg_200605231024_epochs.mat",
+   "bytes": 12504771,
+   "sha256": "db785c3d88daf7c7c9560d2b1cd57a7f7557af04259b64e81dfc43a7a6719625"
+  },
+  {
+   "file": "subject2/session3/eeg_200605231027_epochs.mat",
+   "bytes": 13095963,
+   "sha256": "2beffbf267f95454ea35010470c548cecd25b5f19c36db78f9694cfe5a3b3564"
+  },
+  {
+   "file": "subject2/session3/eeg_200605231029_epochs.mat",
+   "bytes": 13683574,
+   "sha256": "05b4521f8201a151367094705e9b180ed9d040b490c7b927b9159d7fa417192e"
+  },
+  {
+   "file": "subject2/session3/eeg_200605231030_epochs.mat",
+   "bytes": 11399047,
+   "sha256": "17d83ac9826af7f9d3c40b528a3dd85eb51b05e7b1f632b50c90cf532e14a5f9"
+  },
+  {
+   "file": "subject2/session3/eeg_200605231032_epochs.mat",
+   "bytes": 11867477,
+   "sha256": "493c783193e7c544a6b9e3111ddd24ca53ff322c258fb79f22c901c925cff3a7"
+  },
+  {
+   "file": "subject2/session4/eeg_200605231041_epochs.mat",
+   "bytes": 13734343,
+   "sha256": "c082d41bb3cb9ad5b5606dd131170263f2d3efd5f5d18b12f82b96f69775706d"
+  },
+  {
+   "file": "subject2/session4/eeg_200605231043_epochs.mat",
+   "bytes": 11517057,
+   "sha256": "e5df8599e41ec3fffdbd7963df1b8aeb564296509d00fa1938c7ea08342354b6"
+  },
+  {
+   "file": "subject2/session4/eeg_200605231045_epochs.mat",
+   "bytes": 13737413,
+   "sha256": "0588fad7947842a35341a3a30bacc1b28623e02156f4bfde43d9d658adc538ff"
+  },
+  {
+   "file": "subject2/session4/eeg_200605231047_epochs.mat",
+   "bytes": 13655011,
+   "sha256": "0f684dd0f8007f7b2f35fca84797a112eb8b87d677a7097ef607605f9082020a"
+  },
+  {
+   "file": "subject2/session4/eeg_200605231049_epochs.mat",
+   "bytes": 12385931,
+   "sha256": "9b09d0b9214e84140d02b45c4141889e719035d76c86a945e047b2a9d3e4ad37"
+  },
+  {
+   "file": "subject2/session4/eeg_200605231051_epochs.mat",
+   "bytes": 13115765,
+   "sha256": "fc8af50d7f8a1c4a2ea95d330f4a690e62faa5d5680516552a3f67c8c6009c91"
+  },
+  {
+   "file": "subject3/session1/eeg_200611091351_epochs.mat",
+   "bytes": 11116391,
+   "sha256": "f2a9d2bff73b78d7b5144e4fa3954c8ec92c71981e143a7226ac61b9a9ac8f6f"
+  },
+  {
+   "file": "subject3/session1/eeg_200611091353_epochs.mat",
+   "bytes": 12518955,
+   "sha256": "de421709e89f733dafacc4f3317e633f976b3ca862fa98e3b04723cfeb3e73ba"
+  },
+  {
+   "file": "subject3/session1/eeg_200611091354_epochs.mat",
+   "bytes": 11426479,
+   "sha256": "930de1538e1772640e75b748ee0e90d0c8f45d2506cc1296f2048760c08da4c2"
+  },
+  {
+   "file": "subject3/session1/eeg_200611091356_epochs.mat",
+   "bytes": 10536591,
+   "sha256": "8e90650cbd30c0ad8163a40bd2567ee839b8dafb4d5476110f62edcf10faaf7c"
+  },
+  {
+   "file": "subject3/session1/eeg_200611091358_epochs.mat",
+   "bytes": 10507267,
+   "sha256": "3f2c5ab4f68119d6c4d191bfc3b76c3976df6e9233f5d0bc2bdc2e7b34707fca"
+  },
+  {
+   "file": "subject3/session1/eeg_200611091359_epochs.mat",
+   "bytes": 12315303,
+   "sha256": "2c481154d3b9129c737c2d4c349c1ded7b62c81458e3f15ae92cb6b41224ec4f"
+  },
+  {
+   "file": "subject3/session2/eeg_200611091405_epochs.mat",
+   "bytes": 12295142,
+   "sha256": "1b69b4fb76ee558087d214cfd187c8bd29e596394d14e69c2248dcb096919056"
+  },
+  {
+   "file": "subject3/session2/eeg_200611091407_epochs.mat",
+   "bytes": 11853763,
+   "sha256": "9feb2cd742af55ec8e6bdf770156472a1ec7fb16bafa83680cd437627747784a"
+  },
+  {
+   "file": "subject3/session2/eeg_200611091409_epochs.mat",
+   "bytes": 12844807,
+   "sha256": "168d1df2ffe7879051d11f527c9622df6cea94910d9f72970c5aceedd4fd0e09"
+  },
+  {
+   "file": "subject3/session2/eeg_200611091411_epochs.mat",
+   "bytes": 12393132,
+   "sha256": "c97db6a9d6a9b519c693ff794c5aaee87b17e2f706f2de35819e204efd923f28"
+  },
+  {
+   "file": "subject3/session2/eeg_200611091413_epochs.mat",
+   "bytes": 11871313,
+   "sha256": "c87ae8e4107e7f834ae50711b4d8c8b9eef342ec970f48db3e9e5002bd3f4ec9"
+  },
+  {
+   "file": "subject3/session2/eeg_200611091415_epochs.mat",
+   "bytes": 10529886,
+   "sha256": "949c1f90f2ac5265153005c39022c3ca1add0a89922fdb6046ae5c5428d6dda7"
+  },
+  {
+   "file": "subject3/session3/eeg_200611141405_epochs.mat",
+   "bytes": 11132392,
+   "sha256": "9122b9c1c8b41566813fc5cf31a140a9296804a8d41ebd357b43947a7cad947d"
+  },
+  {
+   "file": "subject3/session3/eeg_200611141407_epochs.mat",
+   "bytes": 12811842,
+   "sha256": "6b9f2170d51a9f16940084f3dffa5195dd9179dce3cde6b9c3f67498d7757970"
+  },
+  {
+   "file": "subject3/session3/eeg_200611141409_epochs.mat",
+   "bytes": 13365426,
+   "sha256": "dc28f941f4f40875c4ee873c43ec63ba89952cc34d5ad34b91dbe2800bb9521e"
+  },
+  {
+   "file": "subject3/session3/eeg_200611141411_epochs.mat",
+   "bytes": 12334557,
+   "sha256": "a3f730d1d2272ba1345a2d1455f4037b8a2ab324ac78bb18e8d43cb384fdbeab"
+  },
+  {
+   "file": "subject3/session3/eeg_200611141413_epochs.mat",
+   "bytes": 12645211,
+   "sha256": "50b1db93390f74e4ae6d9626dd7fd19fc9d11893296ca9dfb6df36952246e861"
+  },
+  {
+   "file": "subject3/session3/eeg_200611141415_epochs.mat",
+   "bytes": 12899797,
+   "sha256": "16098d4fc52b57ee7d9bd301f6bc33242057f81e8a9d322aa924911cf70bfd4a"
+  },
+  {
+   "file": "subject3/session4/eeg_200611141423_epochs.mat",
+   "bytes": 13312195,
+   "sha256": "47a875497d985b9b2ceffa992310b2b0c66ece4000c61bedbff941daef0c8c7b"
+  },
+  {
+   "file": "subject3/session4/eeg_200611141425_epochs.mat",
+   "bytes": 11542306,
+   "sha256": "d4a414d7cc8b52bcddef228f0e6fec49d380abea8dc48fab498517607b4a5c1f"
+  },
+  {
+   "file": "subject3/session4/eeg_200611141427_epochs.mat",
+   "bytes": 12148790,
+   "sha256": "772a56d4d64b82e99456772a64a17f40615003e8b5b87c3baf1f92c24e88bda8"
+  },
+  {
+   "file": "subject3/session4/eeg_200611141430_epochs.mat",
+   "bytes": 11473216,
+   "sha256": "548db983a2bd0a7415bd9c41d4c037bed0a94ff4542d24f839ee66d76c32f3ad"
+  },
+  {
+   "file": "subject3/session4/eeg_200611141432_epochs.mat",
+   "bytes": 11285465,
+   "sha256": "28e1516f69c5a2861ae77670f9cdfc46900c0a4d708b8337bdc66ef7ce7615fb"
+  },
+  {
+   "file": "subject3/session4/eeg_200611141434_epochs.mat",
+   "bytes": 12698625,
+   "sha256": "ea86572f3ca8020a3767a04beee2d9d307a50def56fb07a83768ba1b9c534e0f"
+  },
+  {
+   "file": "subject4/session1/eeg_200611091519_epochs.mat",
+   "bytes": 11131110,
+   "sha256": "a454e943fd3c4c02db06a62c7d166ad02ed1e0583b4e9ae665ae210ff2963fae"
+  },
+  {
+   "file": "subject4/session1/eeg_200611091521_epochs.mat",
+   "bytes": 11116465,
+   "sha256": "f4d2bcad3f822c6a9a6ff63e711ba8477d765f3e7d00278003034ebce2d283f7"
+  },
+  {
+   "file": "subject4/session1/eeg_200611091522_epochs.mat",
+   "bytes": 11626266,
+   "sha256": "af63bede3eb212598acc42d508bb51f4f58b1d82cf552a288b2e4b454b76af79"
+  },
+  {
+   "file": "subject4/session1/eeg_200611091524_epochs.mat",
+   "bytes": 12741850,
+   "sha256": "b7156130b68541c4c46cc0d9d0ff8b1b19e01042c9adb161cac3d8a774199ac5"
+  },
+  {
+   "file": "subject4/session1/eeg_200611091526_epochs.mat",
+   "bytes": 11632266,
+   "sha256": "047e5fc56703f213d4d6b24c6b94da9ce43aeae0085072ee9960a73a8067a1d9"
+  },
+  {
+   "file": "subject4/session1/eeg_200611091527_epochs.mat",
+   "bytes": 11617297,
+   "sha256": "a0b190780b509e3ac6f3156316852cf51fd88051f541728b4b29961ed43d1bcc"
+  },
+  {
+   "file": "subject4/session2/eeg_200611091531_epochs.mat",
+   "bytes": 13314372,
+   "sha256": "044700a685c3afd91b9279f11f470598dafaa0b58cc0d02de54a2cfe8f182716"
+  },
+  {
+   "file": "subject4/session2/eeg_200611091533_epochs.mat",
+   "bytes": 12633246,
+   "sha256": "7acb5abaf76308c52f44be53748307d74e64ccc6ba673c9f2842981ed395e48a"
+  },
+  {
+   "file": "subject4/session2/eeg_200611091535_epochs.mat",
+   "bytes": 12679374,
+   "sha256": "73f5bb500562fbc0c4639b4ef1913f39911b14e245b88b740ece2b5127524ad5"
+  },
+  {
+   "file": "subject4/session2/eeg_200611091537_epochs.mat",
+   "bytes": 13303671,
+   "sha256": "75f40abd2e9ae2fe717f81d88c0b0bc21357340058dcad6b6748177b00ef01f5"
+  },
+  {
+   "file": "subject4/session2/eeg_200611091539_epochs.mat",
+   "bytes": 11097430,
+   "sha256": "4d282eb4a9bc6a103c6e0422596bcd765f7627c7768453f2d3fdee3fdf62e640"
+  },
+  {
+   "file": "subject4/session2/eeg_200611091541_epochs.mat",
+   "bytes": 12194120,
+   "sha256": "3a3b6a21ccca5b61fffd6981c9615d5222c4413c200beb0a40cabc4698660cf8"
+  },
+  {
+   "file": "subject4/session3/eeg_200611141519_epochs.mat",
+   "bytes": 12237646,
+   "sha256": "316fd254937b293e32e92be9229e1ef819f940e5d1d62053dcb5088fe5999880"
+  },
+  {
+   "file": "subject4/session3/eeg_200611141521_epochs.mat",
+   "bytes": 10767877,
+   "sha256": "6344dc7f914205b9351af9a3cff3d99ba08cc2d1160e75931e555cb657026f69"
+  },
+  {
+   "file": "subject4/session3/eeg_200611141523_epochs.mat",
+   "bytes": 12332016,
+   "sha256": "d8641c1ecec300b21187d2e8c3aab638ba5108d23318f5dd96a226a9405bdaf0"
+  },
+  {
+   "file": "subject4/session3/eeg_200611141525_epochs.mat",
+   "bytes": 12943065,
+   "sha256": "e9f1b43ed6ef3ac4448f72736e027e4c19a3fbbb94de5b3017080e435c862efb"
+  },
+  {
+   "file": "subject4/session3/eeg_200611141527_epochs.mat",
+   "bytes": 12024735,
+   "sha256": "d4991c9b7e807d3a86bb367d68e4ca1a97121312892eae3dd575e85b08d16929"
+  },
+  {
+   "file": "subject4/session3/eeg_200611141528_epochs.mat",
+   "bytes": 11944087,
+   "sha256": "99c3720e6073830f77aca34f166e458ea6952d002ff16aa9defa2321ba3bbb1e"
+  },
+  {
+   "file": "subject4/session4/eeg_200611141538_epochs.mat",
+   "bytes": 11260690,
+   "sha256": "a34cb03b6ac2b4c1fd78912f66aeaf5653dae4fc7953bd62956a60cb9e821ecb"
+  },
+  {
+   "file": "subject4/session4/eeg_200611141539_epochs.mat",
+   "bytes": 13070078,
+   "sha256": "2f3a6a947fa1972f47ca66961be09e168e924f42bd746a82ffb9e94c10bd175b"
+  },
+  {
+   "file": "subject4/session4/eeg_200611141541_epochs.mat",
+   "bytes": 12454548,
+   "sha256": "ef36c558340a1a06ee16057f44d97a744c12f38c91569c02b366cadab68d500b"
+  },
+  {
+   "file": "subject4/session4/eeg_200611141543_epochs.mat",
+   "bytes": 11937723,
+   "sha256": "6539278dbc1aa00f1d087c14e087d922392b02e46d1cb06d58218e5d09405029"
+  },
+  {
+   "file": "subject4/session4/eeg_200611141545_epochs.mat",
+   "bytes": 12400798,
+   "sha256": "a170a1f4bd3c1e75126870fc5016160de8b5fb19053b062897fd81acc00a7cfc"
+  },
+  {
+   "file": "subject4/session4/eeg_200611141547_epochs.mat",
+   "bytes": 10905979,
+   "sha256": "19e6895ac027d02a1afe8458727680cd17832d4ef369da376bf90404932c241c"
+  },
+  {
+   "file": "subject6/session1/eeg_200605121427_epochs.mat",
+   "bytes": 10803923,
+   "sha256": "5fb8ef8b0aef1c5fc752724da6643f6ff8a36133935e6135ed6450d200581d67"
+  },
+  {
+   "file": "subject6/session1/eeg_200605121428_epochs.mat",
+   "bytes": 11004965,
+   "sha256": "ad7fdb7e19dc7751efc8fde0a4dc048bb98069c4d4477248ab071277cfd3d9d3"
+  },
+  {
+   "file": "subject6/session1/eeg_200605121430_epochs.mat",
+   "bytes": 12845763,
+   "sha256": "ef8482e71b6cfe0214836740feb374fe3b824ed682557c919eeaa60ac99eb1ae"
+  },
+  {
+   "file": "subject6/session1/eeg_200605121432_epochs.mat",
+   "bytes": 11028707,
+   "sha256": "7ec019af723a310abc1ec2acbc8ce1160e816d20514ba8dc06e0f735c8363b22"
+  },
+  {
+   "file": "subject6/session1/eeg_200605121433_epochs.mat",
+   "bytes": 10881538,
+   "sha256": "0bd202c8890a9e5a4b0034717f0b73856995e23b0694595bfc2ddc9d0b85a3fe"
+  },
+  {
+   "file": "subject6/session1/eeg_200605121435_epochs.mat",
+   "bytes": 12408202,
+   "sha256": "19e67a419d9d21698db53e31d3c621ee9c658ff5b0ca14a036ab5231dc3e2c96"
+  },
+  {
+   "file": "subject6/session2/eeg_200605121439_epochs.mat",
+   "bytes": 11556476,
+   "sha256": "db9ec68a1aceaf016149024ee30efeb2185a57570f0cb6ccdb5d96e4384be2c5"
+  },
+  {
+   "file": "subject6/session2/eeg_200605121442_epochs.mat",
+   "bytes": 11451665,
+   "sha256": "fdb959ce42fc62c61194ec07c64cf51a1052f57e67ee00f76f3491364a8abfb6"
+  },
+  {
+   "file": "subject6/session2/eeg_200605121444_epochs.mat",
+   "bytes": 13088884,
+   "sha256": "715d66aec39e8557e1852fa1393cb9257a7b6726e8877088e409437a4d447133"
+  },
+  {
+   "file": "subject6/session2/eeg_200605121446_epochs.mat",
+   "bytes": 10607054,
+   "sha256": "bf4fe5c3f45d281e962ab331498b7e968be4b088b82872d423b495f06adf3411"
+  },
+  {
+   "file": "subject6/session2/eeg_200605121449_epochs.mat",
+   "bytes": 12476236,
+   "sha256": "4061fbc132835c7137458a0c488b19759183ed9d93499abc57effe5b43c7b29d"
+  },
+  {
+   "file": "subject6/session2/eeg_200605121451_epochs.mat",
+   "bytes": 11820273,
+   "sha256": "99d3919814650601554dd0b1184af814d8daeb9926a0db962630c31a234d0179"
+  },
+  {
+   "file": "subject6/session3/eeg_200605161459_epochs.mat",
+   "bytes": 12831557,
+   "sha256": "8f5609ba25598926cb1fae0cc3f48f3e8531192e4ca525caf0cf56a7885df401"
+  },
+  {
+   "file": "subject6/session3/eeg_200605161500_epochs.mat",
+   "bytes": 10717488,
+   "sha256": "15d0af3a90d7151779c50b62a404e362a91a61390f7209b0622435d933688894"
+  },
+  {
+   "file": "subject6/session3/eeg_200605161502_epochs.mat",
+   "bytes": 12082160,
+   "sha256": "532129cf4a1512cf046f6e9179110b4d9b0cd542c6e6e05c4efc1fa5b4793ac2"
+  },
+  {
+   "file": "subject6/session3/eeg_200605161504_epochs.mat",
+   "bytes": 11078044,
+   "sha256": "3d2f1da46d9f51a996804cfabdfb52f2882ced8993171e52e2cae43de9b77e49"
+  },
+  {
+   "file": "subject6/session3/eeg_200605161506_epochs.mat",
+   "bytes": 12105419,
+   "sha256": "38814b0fae2c882a7d23020066a485e2a4c8523440929f4e70274d5cd6c8c7b2"
+  },
+  {
+   "file": "subject6/session3/eeg_200605161507_epochs.mat",
+   "bytes": 10722639,
+   "sha256": "2215bbd3ceeb5f280c27523c0f72bc92fca5c289881ca1cd54d6bfde475f9221"
+  },
+  {
+   "file": "subject6/session4/eeg_200605161516_epochs.mat",
+   "bytes": 10662887,
+   "sha256": "f06409af89bd7ca051cff24298f88573cfc3f6c619caf9bd02d32989387f9ecc"
+  },
+  {
+   "file": "subject6/session4/eeg_200605161518_epochs.mat",
+   "bytes": 12571268,
+   "sha256": "19c1e5388d051d4ba678b2682cdcd29419b591997c6ee33543b70eb8b5a65339"
+  },
+  {
+   "file": "subject6/session4/eeg_200605161520_epochs.mat",
+   "bytes": 12033457,
+   "sha256": "9c900ae90906e2f904af193ecabdfbda19822c76cd70e5ccb2517bb49af23815"
+  },
+  {
+   "file": "subject6/session4/eeg_200605161521_epochs.mat",
+   "bytes": 10669836,
+   "sha256": "0893295071a36b804ab359d95d7152c5d484c43d2c3e79ceeef0a61fad3a4a59"
+  },
+  {
+   "file": "subject6/session4/eeg_200605161523_epochs.mat",
+   "bytes": 11791204,
+   "sha256": "acb01eae7e49d3bd93d7c1c6adab5adcdee1070136f4c80d7417977173f16aac"
+  },
+  {
+   "file": "subject6/session4/eeg_200605161525_epochs.mat",
+   "bytes": 12020537,
+   "sha256": "2b0f3ccdb06ca8b053cdf59febbdf3be470d8e98b59081c9ba353b49e2798db7"
+  },
+  {
+   "file": "subject7/session1/eeg_200605101539_epochs.mat",
+   "bytes": 11531893,
+   "sha256": "78db857299c40f558ebb7b6d368422f8199e5e0cc1381e5234c9a83e5af9a6dc"
+  },
+  {
+   "file": "subject7/session1/eeg_200605101540_epochs.mat",
+   "bytes": 10858889,
+   "sha256": "0da202f7ee729f8ad4af72a19c1178ff8e4f25aede794737d047e70e4e2d841a"
+  },
+  {
+   "file": "subject7/session1/eeg_200605101542_epochs.mat",
+   "bytes": 11470051,
+   "sha256": "6efa40b2c308226b8e2dfbb1e9a6809dde968a84e8241b7146c396ebd94125e4"
+  },
+  {
+   "file": "subject7/session1/eeg_200605101543_epochs.mat",
+   "bytes": 12452829,
+   "sha256": "14c6822a102126ebee790f25c5deea3242459ef601593dc7d4ec691aca8f6208"
+  },
+  {
+   "file": "subject7/session1/eeg_200605101545_epochs.mat",
+   "bytes": 12409200,
+   "sha256": "0756aa410cd05c068f482de59c7d302bdfe93530cd1e26d1fb06f3b860c90e77"
+  },
+  {
+   "file": "subject7/session1/eeg_200605101547_epochs.mat",
+   "bytes": 12535777,
+   "sha256": "4403847cd9257e70a5fb438a0598b41c0f91365f55c4034cb8773de17c4cf12e"
+  },
+  {
+   "file": "subject7/session2/eeg_200605101553_epochs.mat",
+   "bytes": 10438168,
+   "sha256": "c020ad02ed1322b6f607a17d87a75b1b6e0ace61db8bcda3d8646bbda9b3f95f"
+  },
+  {
+   "file": "subject7/session2/eeg_200605101555_epochs.mat",
+   "bytes": 11800983,
+   "sha256": "3363c42b5761e2fa59b47451ef1bb328f8b6a06014714f2123b90b218aca5ea3"
+  },
+  {
+   "file": "subject7/session2/eeg_200605101557_epochs.mat",
+   "bytes": 10776751,
+   "sha256": "b73fbe92934ac1298fa21b87551700227187086f75087e7ef20524fb2344313b"
+  },
+  {
+   "file": "subject7/session2/eeg_200605101559_epochs.mat",
+   "bytes": 11747958,
+   "sha256": "1adf0965e99418b5cd3bb2310314b39b58cf0de8f7e98f052c9cad404d1897cc"
+  },
+  {
+   "file": "subject7/session2/eeg_200605101601_epochs.mat",
+   "bytes": 11448203,
+   "sha256": "d60431547ffbca28b2899b56bb0e0fb4b6fc8b9566bbb4fbca230cb88bfb98cb"
+  },
+  {
+   "file": "subject7/session2/eeg_200605101602_epochs.mat",
+   "bytes": 11849811,
+   "sha256": "baf95f44c8a6a4419999776d49f013121e6a41813c18350023069db174e3c7f3"
+  },
+  {
+   "file": "subject7/session3/eeg_200605161654_epochs.mat",
+   "bytes": 11566380,
+   "sha256": "7a61b0466a3f4a90a0ee2091d815b8fed4fddd193006830eaa4105a37786e50e"
+  },
+  {
+   "file": "subject7/session3/eeg_200605161655_epochs.mat",
+   "bytes": 13731231,
+   "sha256": "13be0870b11779d7c647e05b22005f69b097177284ebf3fb8c17673039f9e9fe"
+  },
+  {
+   "file": "subject7/session3/eeg_200605161657_epochs.mat",
+   "bytes": 11928400,
+   "sha256": "9111b18a3f9ae3f043833962e5ceb55410b6cbc6a647f36e5b69db25fd257f48"
+  },
+  {
+   "file": "subject7/session3/eeg_200605161658_epochs.mat",
+   "bytes": 11505019,
+   "sha256": "d90537692fcaccf1ac905f0e0393062005054121e8b1e76a73be648868f9bb0b"
+  },
+  {
+   "file": "subject7/session3/eeg_200605161659_epochs.mat",
+   "bytes": 13099136,
+   "sha256": "ed2302984eb8651f3d1e1ce632a2b1788c3fa88eeac8c619705222858d2c2084"
+  },
+  {
+   "file": "subject7/session3/eeg_200605161701_epochs.mat",
+   "bytes": 13848113,
+   "sha256": "686730b8aff29587018df1079f01a6acc644f5d21325e626efb2e1a665e643bf"
+  },
+  {
+   "file": "subject7/session4/eeg_200605161706_epochs.mat",
+   "bytes": 13777073,
+   "sha256": "fdf372033689f24d0985250b69ad4267d600ef4fd1c73eac54f67a55ca980111"
+  },
+  {
+   "file": "subject7/session4/eeg_200605161708_epochs.mat",
+   "bytes": 13128157,
+   "sha256": "a67eec7eda63025b03e9be3112b67d4b64172a2070113c13d4be1f729d5bab45"
+  },
+  {
+   "file": "subject7/session4/eeg_200605161710_epochs.mat",
+   "bytes": 13859451,
+   "sha256": "9c2ab971b619fcd8edd485337f0a9ad94404dfe3a3c33ca5cb360c02c9004fa8"
+  },
+  {
+   "file": "subject7/session4/eeg_200605161712_epochs.mat",
+   "bytes": 13166752,
+   "sha256": "b22b3379a6208ec7b3b212e4356cce963b38da19f3e17a4d4d58b0cdf0e1a998"
+  },
+  {
+   "file": "subject7/session4/eeg_200605161714_epochs.mat",
+   "bytes": 13130351,
+   "sha256": "63854ce64903523bde9c721e787b0b65b3493055f35043ccb0b8090dfce40a6d"
+  },
+  {
+   "file": "subject7/session4/eeg_200605161715_epochs.mat",
+   "bytes": 11592941,
+   "sha256": "d01cc14bab0e6343d1d6fb91a30ad5e44517c10826f4defdfaeb46a3043ad4fe"
+  },
+  {
+   "file": "subject8/session1/eeg_200308280250_epochs.mat",
+   "bytes": 12335023,
+   "sha256": "7d87ac4f8b724fdfcae6814f839af5dc0b244f20e3bdf3b062b556f8409af1b3"
+  },
+  {
+   "file": "subject8/session1/eeg_200308280252_epochs.mat",
+   "bytes": 10685943,
+   "sha256": "8e970c9e7c0f722286b774897874311665fa346d95812b385e9d58901e727bb7"
+  },
+  {
+   "file": "subject8/session1/eeg_200308280254_epochs.mat",
+   "bytes": 10793438,
+   "sha256": "94406f39817ed4b099e0dc43848b2a822d46320293e3ab1c4b94a5ffbad1d548"
+  },
+  {
+   "file": "subject8/session1/eeg_200308280255_epochs.mat",
+   "bytes": 11537545,
+   "sha256": "315391fc78ede441a31bde321bbf8767f22cb4b2946c49b23c56c7376110a00a"
+  },
+  {
+   "file": "subject8/session1/eeg_200308280257_epochs.mat",
+   "bytes": 11981096,
+   "sha256": "dc7f0598afbaef13350ecdcde485ce812b2e85b21477660b4ef509cbcdfb6056"
+  },
+  {
+   "file": "subject8/session1/eeg_200308280258_epochs.mat",
+   "bytes": 11731344,
+   "sha256": "1630e2ae5da464b56c91bcbeeb4b77734023e6f76bd7a6763398c78a09c3b5e5"
+  },
+  {
+   "file": "subject8/session2/eeg_200308280303_epochs.mat",
+   "bytes": 11861129,
+   "sha256": "03c8109c4c5a888fdd65f3f44e6af04465a79b95673ec17586589e4f63d9ecd7"
+  },
+  {
+   "file": "subject8/session2/eeg_200308280307_epochs.mat",
+   "bytes": 12850503,
+   "sha256": "f0d489f3db13760337835ab23e110f9f91b76c0a751bc0711094b685c6b06588"
+  },
+  {
+   "file": "subject8/session2/eeg_200308280309_epochs.mat",
+   "bytes": 11441078,
+   "sha256": "1b5d4219b722c43d54c3a66cfd983fc382f75ba350def4e53d5014669d0ddb40"
+  },
+  {
+   "file": "subject8/session2/eeg_200308280312_epochs.mat",
+   "bytes": 11609275,
+   "sha256": "eb8bbb7086a39832d2bc2b843eed7338a89ada2089d50b5fe0085b1bfbaf222f"
+  },
+  {
+   "file": "subject8/session2/eeg_200308280314_epochs.mat",
+   "bytes": 12526803,
+   "sha256": "c954715d0266545b887d824f592a54b68016f324e4d4a2432e843ded64efa8a8"
+  },
+  {
+   "file": "subject8/session2/eeg_200308280316_epochs.mat",
+   "bytes": 12113195,
+   "sha256": "f1d7c0eac29b11afa86a163957a6cfc9da7d46acadd415146b71833f81a28768"
+  },
+  {
+   "file": "subject8/session3/eeg_200308290146_epochs.mat",
+   "bytes": 12282670,
+   "sha256": "fe3274f437132b2881391e018a5f6720fbc6e51b2d4587df404a5ad50d6bd6dc"
+  },
+  {
+   "file": "subject8/session3/eeg_200308290148_epochs.mat",
+   "bytes": 10235083,
+   "sha256": "5cef5e201519506397adecc524249efeb88f85f4d41533822a47ed4e3b4ba6ad"
+  },
+  {
+   "file": "subject8/session3/eeg_200308290150_epochs.mat",
+   "bytes": 10702770,
+   "sha256": "083baabce2caed29758dee54951e5df41001fb310456199608b1c3de91000108"
+  },
+  {
+   "file": "subject8/session3/eeg_200308290151_epochs.mat",
+   "bytes": 11770079,
+   "sha256": "88de9e03d9d388e30b343772a06568117df29d6512f6b824a73ff3f4dd87d19c"
+  },
+  {
+   "file": "subject8/session3/eeg_200308290153_epochs.mat",
+   "bytes": 10451775,
+   "sha256": "f885e459b1f8ec3f3980a5cca57b328774734eb2420407db2713d7224d45422f"
+  },
+  {
+   "file": "subject8/session3/eeg_200308290155_epochs.mat",
+   "bytes": 12826235,
+   "sha256": "a55eb25c76d63cc39e9d4464fcdb1f84205789e0b1113254447542fa9d3d5ab4"
+  },
+  {
+   "file": "subject8/session4/eeg_200308290203_epochs.mat",
+   "bytes": 10659901,
+   "sha256": "326b2b281374bb00cb6099b2ea32d00a32b8ec712cdd85898a9204015739edad"
+  },
+  {
+   "file": "subject8/session4/eeg_200308290205_epochs.mat",
+   "bytes": 10588309,
+   "sha256": "1fe3172a8353af0110ca84728c2071a35fbfbab4665a91a27e8329ded848d672"
+  },
+  {
+   "file": "subject8/session4/eeg_200308290207_epochs.mat",
+   "bytes": 11809073,
+   "sha256": "1d3bbe18d434189ddc496852f7b60fd566e3c84a6e5b8bc9408bedb7bbc7205c"
+  },
+  {
+   "file": "subject8/session4/eeg_200308290209_epochs.mat",
+   "bytes": 12577216,
+   "sha256": "edddfec890f56dffdaf9afeff69590f0768f76a162bbd23fcf3ae5576a0407f4"
+  },
+  {
+   "file": "subject8/session4/eeg_200308290211_epochs.mat",
+   "bytes": 10765805,
+   "sha256": "60b3b2330a4ca02d763aafbc55ad9dd104070c4ab3c7d4e2c73ccec01d9124b2"
+  },
+  {
+   "file": "subject8/session4/eeg_200308290212_epochs.mat",
+   "bytes": 10617372,
+   "sha256": "1d8c91ced6a3e70bca9a1c80feab674ac65679399b7d02ecf484504151fef38c"
+  },
+  {
+   "file": "subject9/session1/eeg_200308270304_epochs.mat",
+   "bytes": 10649042,
+   "sha256": "6cf34f7c2ecf8a0dc7d5dbd3477c58be02f27a3798cce114c7db79c6058702bc"
+  },
+  {
+   "file": "subject9/session1/eeg_200308270306_epochs.mat",
+   "bytes": 12079369,
+   "sha256": "af5bced9d336a64c99d6c73381d29fbc110d60cde3bdc5812e1a0c99ec05c92d"
+  },
+  {
+   "file": "subject9/session1/eeg_200308270308_epochs.mat",
+   "bytes": 11681120,
+   "sha256": "879ec256ac4a7b9936fbfa6cb52551a5f98d877989defb99c5938b835ac0ef03"
+  },
+  {
+   "file": "subject9/session1/eeg_200308270309_epochs.mat",
+   "bytes": 11512923,
+   "sha256": "85be6c8062094696b86c7f6010f26683fa71bf40818d975b113ad5e1c57216bd"
+  },
+  {
+   "file": "subject9/session1/eeg_200308270311_epochs.mat",
+   "bytes": 10620075,
+   "sha256": "e116c6bd052a47debb6b5c063af4990d819fe067dcf94fc6f0e5568ded361eb8"
+  },
+  {
+   "file": "subject9/session1/eeg_200308270312_epochs.mat",
+   "bytes": 11104719,
+   "sha256": "f58247c2a6aa8ae8df10469e06f1bb6a5bb27d7f1aa26d2ea8deefb4e0a84ae8"
+  },
+  {
+   "file": "subject9/session2/eeg_200308270316_epochs.mat",
+   "bytes": 10613524,
+   "sha256": "5bfe9e9fda2fba865d39675dabb22ba47a0e26578564282057f1c71ee96e838d"
+  },
+  {
+   "file": "subject9/session2/eeg_200308270318_epochs.mat",
+   "bytes": 11295951,
+   "sha256": "a91f57e42abeb671bf42b332e3e52dea8bc0853be8f7c5651ea62c07f076c1c2"
+  },
+  {
+   "file": "subject9/session2/eeg_200308270320_epochs.mat",
+   "bytes": 11112649,
+   "sha256": "4a80a3f8c41b0d098d7c9a06f0abff8e03cf03a72b06c49c5d3cfda24bc59907"
+  },
+  {
+   "file": "subject9/session2/eeg_200308270321_epochs.mat",
+   "bytes": 12014137,
+   "sha256": "7d560ac071c8224539a40ca535ce52d313bcff02ee0bc341c9cc4822732d56a7"
+  },
+  {
+   "file": "subject9/session2/eeg_200308270323_epochs.mat",
+   "bytes": 12314356,
+   "sha256": "7ff0de2090b6d778ef4b4721d92ad774892736e4ada9d5b95614e95eef99dd2b"
+  },
+  {
+   "file": "subject9/session2/eeg_200308270325_epochs.mat",
+   "bytes": 12688264,
+   "sha256": "1b5079500a93fde43ce9f7a2a400518ff25834cdde1825705d06c52f7c8d6c1b"
+  },
+  {
+   "file": "subject9/session3/eeg_200308280023_epochs.mat",
+   "bytes": 12612937,
+   "sha256": "3ce1abbe32a2c3a728261336932ceef099516d64da8dd600fac5f388ca3a1dc1"
+  },
+  {
+   "file": "subject9/session3/eeg_200308280025_epochs.mat",
+   "bytes": 12504692,
+   "sha256": "49ac50532c11d1d6aa30a097d702c4d6af6c99b2281922fd7898482813ed384a"
+  },
+  {
+   "file": "subject9/session3/eeg_200308280027_epochs.mat",
+   "bytes": 10962934,
+   "sha256": "d78665a1016eaadfc3bd419c93d30a1478d65ccae182ed5f11e80f831edb0157"
+  },
+  {
+   "file": "subject9/session3/eeg_200308280029_epochs.mat",
+   "bytes": 12911706,
+   "sha256": "110b9d2e52fd477da0338443cce5a52df6d0af6590a8b1f49ece7362fa1ad0bb"
+  },
+  {
+   "file": "subject9/session3/eeg_200308280031_epochs.mat",
+   "bytes": 13496785,
+   "sha256": "6e097f580533339c3308e834112ea55c3417532d731ee85a01a5b0c705ad0817"
+  },
+  {
+   "file": "subject9/session3/eeg_200308280032_epochs.mat",
+   "bytes": 12747107,
+   "sha256": "56859f35b03e2c1c4f8620e4012fe8bde613c6c2fc2239a96fe27cb31c002e59"
+  },
+  {
+   "file": "subject9/session4/eeg_200308280043_epochs.mat",
+   "bytes": 11400682,
+   "sha256": "a2fa82f166c3748d9d1c54750e598caf64be8cca84782eead2aecf7d781ef5d8"
+  },
+  {
+   "file": "subject9/session4/eeg_200308280045_epochs.mat",
+   "bytes": 12114985,
+   "sha256": "c15498e909dd1f789aacf3079ddddd7509d21041dc4f463fb8227da3d2e8da66"
+  },
+  {
+   "file": "subject9/session4/eeg_200308280047_epochs.mat",
+   "bytes": 11716689,
+   "sha256": "03275abb59ea42b025005b820c19e5deb8aae5183ddee18154c8e98d9127b570"
+  },
+  {
+   "file": "subject9/session4/eeg_200308280049_epochs.mat",
+   "bytes": 13270215,
+   "sha256": "36cb3dd6130cc41ec71e175bc48803cac8d3f3bdc9abfb331c56cc2552f2d84d"
+  },
+  {
+   "file": "subject9/session4/eeg_200308280050_epochs.mat",
+   "bytes": 12051640,
+   "sha256": "df9273ae23e79edb185b1caa31a9dde59f7b5f9d02492c65101cb0cb78deecea"
+  },
+  {
+   "file": "subject9/session4/eeg_200308280052_epochs.mat",
+   "bytes": 10529229,
+   "sha256": "f70cabe528d6fb1d4c5fb1f37b9ddbe6601465f57bf03ee2f14680a65f7a9f4f"
+  }
+ ]
+}
