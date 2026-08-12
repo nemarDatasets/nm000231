@@ -1,12 +1,37 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "P300 dataset from Hoffmann et al 2008",
+  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 8 subjects (4 disabled, 4 able-bodied) performing a visual oddball task with image stimuli. The dataset includes 32-channel EEG data sampled at 2048 Hz from subjects counting target images among randomly presented sequences, with applications to assistive technology and BCI performance evaluation in clinical populations.",
+  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 32 active electrodes at 2048 Hz sampling rate. Subjects performed a visual P300 paradigm where six images were presented in random sequences (flash duration 100 ms, inter-stimulus interval 400 ms), and subjects silently counted target image occurrences. Four sessions of six runs each were conducted per subject.",
+  "license": "Unknown",
+  "dataset_type": "derivative",
   "authors": {
     "Ulrich Hoffmann": {},
     "Jean-Marc Vesin": {},
     "Touradj Ebrahimi": {},
     "Karin Diserens": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "visual oddball"
+    },
+    {
+      "term": "disabled subjects"
+    },
+    {
+      "term": "linear discriminant analysis"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.jneumeth.2007.03.005",
@@ -19,11 +44,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000231",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -32,6 +52,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000231",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -40,46 +65,22 @@
       "award_number": "200020-112313"
     }
   ],
-  "title": "P300 dataset from Hoffmann et al 2008",
-  "license": "Unknown",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "2.1 GB (193 files)"
+    "4.4 GB (385 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 8 subjects (4 disabled, 4 able-bodied) performing a visual oddball task with image stimuli. The dataset includes 32-channel EEG data sampled at 2048 Hz from subjects counting target images among randomly presented non-target images, with performance evaluated using linear discriminant analysis classifiers. This derivative dataset is derived from the original Hoffmann et al. 2008 study and serves as a benchmark for BCI algorithm development and evaluation.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 32 active electrodes at 2048 Hz sampling rate. Subjects performed a visual P300 oddball task where they silently counted target images (one of six: television, telephone, lamp, door, window, radio) presented in random sequences with 400 ms inter-stimulus intervals and 100 ms flash duration. Four sessions per subject with 6 runs each were recorded in offline mode without feedback.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "P300"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "visual oddball task"
-    },
-    {
-      "term": "disabled subjects"
-    },
-    {
-      "term": "linear discriminant analysis"
-    }
-  ],
-  "source_hash": "c0ff5bf7bc776e01be225c6e8c829134f75e93e10ad150d235c5ece9b0f67b5d"
+  "source_hash": "8650510029c3cd9fdebc62ecf94bec83f41fdcb694e023d9c10ce32348445bbe"
 }
