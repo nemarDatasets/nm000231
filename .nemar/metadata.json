@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P300 dataset from Hoffmann et al 2008",
-  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 8 subjects (4 disabled, 4 able-bodied) performing a visual oddball task with image stimuli. The dataset includes 32-channel EEG data sampled at 2048 Hz from subjects counting target images among randomly presented sequences, with applications to assistive technology and BCI performance evaluation in clinical populations.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 32 active electrodes at 2048 Hz sampling rate. Subjects performed a visual P300 paradigm where six images were presented in random sequences (flash duration 100 ms, inter-stimulus interval 400 ms), and subjects silently counted target image occurrences. Four sessions of six runs each were conducted per subject.",
+  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 8 subjects (4 disabled, 4 able-bodied) performing a visual oddball task with image stimuli. The dataset includes 32-channel EEG data sampled at 2048 Hz from 4 sessions per subject, with 810 total trials (135 targets, 675 non-targets) classified using Fisher's linear discriminant analysis and Bayesian linear discriminant analysis. This derivative dataset demonstrates high classification accuracy (100%) and information transfer rates suitable for BCI applications in disabled populations.",
+  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 32 active electrodes at 2048 Hz sampling rate. Subjects performed a visual P300 oddball task counting silently when prescribed images were flashed among six possible stimuli (television, telephone, lamp, door, window, radio) presented with 400 ms inter-stimulus intervals. Each trial lasted 1 second with stimulus flash duration of 100 ms. Four sessions of 6 runs each were conducted per subject without feedback.",
   "license": "Unknown",
   "dataset_type": "derivative",
   "authors": {
@@ -23,7 +23,7 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "visual oddball"
+      "term": "visual oddball task"
     },
     {
       "term": "disabled subjects"
@@ -82,5 +82,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "8650510029c3cd9fdebc62ecf94bec83f41fdcb694e023d9c10ce32348445bbe"
+  "source_hash": "a66f654efb7d4fb2c228eeb1582fc7f488fa145cebafdef58ca45fcda4d0d66e"
 }
