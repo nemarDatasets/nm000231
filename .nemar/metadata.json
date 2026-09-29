@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P300 dataset from Hoffmann et al 2008",
-  "description": "A P300 brain-computer interface dataset comprising EEG recordings from 8 subjects (4 disabled, 4 able-bodied) performing a visual oddball task with image stimuli. The dataset includes 32-channel EEG data sampled at 2048 Hz from 4 sessions per subject, with 810 total trials (135 targets, 675 non-targets) classified using Fisher's linear discriminant analysis and Bayesian linear discriminant analysis. This derivative dataset demonstrates high classification accuracy (100%) and information transfer rates suitable for BCI applications in disabled populations.",
-  "methods_description": "EEG data were acquired using a Biosemi ActiveTwo system with 32 active electrodes at 2048 Hz sampling rate. Subjects performed a visual P300 oddball task counting silently when prescribed images were flashed among six possible stimuli (television, telephone, lamp, door, window, radio) presented with 400 ms inter-stimulus intervals. Each trial lasted 1 second with stimulus flash duration of 100 ms. Four sessions of 6 runs each were conducted per subject without feedback.",
+  "description": "EEG recordings from a P300-based brain-computer interface study with 8 participants, four of them disabled and four able-bodied. Each participant completed four sessions of six runs. Participants silently counted how often a prescribed image (television, telephone, lamp, door, window or radio) flashed in a random sequence, producing target and non-target events. The data were recorded at 2048 Hz from 32 EEG channels and support evaluation of P300 classification methods such as BLDA and FLDA for environment control.",
+  "methods_description": "EEG was recorded with a Biosemi ActiveTwo system at 2048 Hz from 32 electrodes placed in the 10-20 layout, plus 2 misc channels. Six images were flashed one at a time for 100 ms with a 400 ms stimulus onset asynchrony, in random sequences. Participants silently counted the flashes of a prescribed target image. Each participant completed 4 sessions of 6 runs each, with no online feedback.",
   "license": "Unknown",
   "dataset_type": "derivative",
   "authors": {
@@ -20,13 +20,20 @@
       "term": "P300"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "visual oddball task"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "disabled subjects"
+    },
+    {
+      "term": "visual oddball"
     },
     {
       "term": "linear discriminant analysis"
@@ -71,7 +78,7 @@
     "eeg"
   ],
   "sizes": [
-    "4.4 GB (385 files)"
+    "4.07 GB (385 files)"
   ],
   "formats": [
     ".bdf",
