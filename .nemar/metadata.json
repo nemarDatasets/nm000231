@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P300 dataset from Hoffmann et al 2008",
-  "description": "EEG recordings from a P300-based brain-computer interface study with 8 participants, four of them disabled and four able-bodied. Each participant completed four sessions of six runs. Participants silently counted how often a prescribed image (television, telephone, lamp, door, window or radio) flashed in a random sequence, producing target and non-target events. The data were recorded at 2048 Hz from 32 EEG channels and support evaluation of P300 classification methods such as BLDA and FLDA for environment control.",
-  "methods_description": "EEG was recorded with a Biosemi ActiveTwo system at 2048 Hz from 32 electrodes placed in the 10-20 layout, plus 2 misc channels. Six images were flashed one at a time for 100 ms with a 400 ms stimulus onset asynchrony, in random sequences. Participants silently counted the flashes of a prescribed target image. Each participant completed 4 sessions of 6 runs each, with no online feedback.",
+  "description": "EEG recordings from eight subjects (four with disabilities, four able-bodied) performing a P300-based brain-computer interface task. Subjects silently counted flashes of a prescribed target image among six household-object images (television, telephone, lamp, door, window, radio) flashed in random sequences. Each subject completed four sessions of six runs, recorded with 32 EEG channels at 2048 Hz, supporting evaluation of P300 classification for environment control.",
+  "methods_description": "EEG was recorded with a Biosemi ActiveTwo system (32 electrodes, 2048 Hz, standard 10-20 montage). Six images were flashed for 100 ms with a 400 ms inter-stimulus interval. Subjects counted target flashes silently, with no feedback (offline). Each subject completed 4 sessions of 6 runs. Original analysis used BLDA and FLDA classifiers with leave-one-session-out cross-validation.",
   "license": "Unknown",
   "dataset_type": "derivative",
   "authors": {
@@ -25,15 +25,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "visual stimulation"
     },
     {
       "term": "disabled subjects"
-    },
-    {
-      "term": "visual oddball"
     },
     {
       "term": "linear discriminant analysis"
@@ -89,5 +84,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a66f654efb7d4fb2c228eeb1582fc7f488fa145cebafdef58ca45fcda4d0d66e"
+  "source_hash": "f11bac6fc5fde6ec54e576637117c29f77a9f4d1ef400d5320ca4ab269f6af77"
 }
